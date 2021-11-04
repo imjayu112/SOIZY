@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0cc05a13a2f6f49af136914ee0dd73, type: 3}
+  m_Name: Legs_06
+  m_EditorClassIdentifier: 
+  guid: 408be924-4c12-4bd8-a61f-ae140ae6db61
+  side:
+  - {fileID: 21300000, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300002, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300004, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300006, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300008, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  front:
+  - {fileID: 21300010, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300012, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300014, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300016, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300018, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  back:
+  - {fileID: 21300020, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300022, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300024, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300026, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  - {fileID: 21300028, guid: cc207e0cb722ca1459a1ac2f579b4803, type: 3}
+  subItem: {fileID: 0}
