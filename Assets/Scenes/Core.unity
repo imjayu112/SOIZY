@@ -537,6 +537,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1832406769}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &725385927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114009164643231406, guid: b08df92d0f9c01241bd6e538aab348b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1832406769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b761da2e1596c46af41c4742e11a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &784398750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5351,6 +5363,16 @@ PrefabInstance:
       propertyPath: animation
       value: 
       objectReference: {fileID: 829092047}
+    - target: {fileID: 114827093120095460, guid: 01cf48729af88244fabaa04bf45ac47e,
+        type: 3}
+      propertyPath: bodyAnimation
+      value: 
+      objectReference: {fileID: 829092047}
+    - target: {fileID: 114827093120095460, guid: 01cf48729af88244fabaa04bf45ac47e,
+        type: 3}
+      propertyPath: clothesAnimation
+      value: 
+      objectReference: {fileID: 725385927}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01cf48729af88244fabaa04bf45ac47e, type: 3}
 --- !u!1 &1207226455
@@ -6425,7 +6447,7 @@ PrefabInstance:
     - target: {fileID: 212098155777727520, guid: b08df92d0f9c01241bd6e538aab348b0,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 212231610986875322, guid: b08df92d0f9c01241bd6e538aab348b0,
         type: 3}

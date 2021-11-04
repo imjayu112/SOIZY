@@ -24,7 +24,9 @@ public class InputSystem : GameSystem
     }
 
     [SerializeField]
-    public BodyAnimation animation;
+    public BodyAnimation bodyAnimation;
+    public BodyAnimation clothesAnimation;
+    
 
     [SerializeField]
     private Events events;
@@ -181,7 +183,8 @@ public class InputSystem : GameSystem
 
             
             if (Input.GetKeyDown(KeyCode.C)) {
-                animation.ApplySitAnimation(1.0f);
+                bodyAnimation.ApplySitAnimation(1.0f);
+                clothesAnimation.ApplySitAnimation(1.0f);
             }
 
         }
